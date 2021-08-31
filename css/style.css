@@ -16,18 +16,12 @@ header {
 }
 
 h1 {
-  padding: 10px;
-  padding-right: 200px;
-  padding-left: 200px;
-  float: right;
-  margin-right: 100px;
-  margin-bottom: 350px;
-  margin-top: 50px;
-  margin-left: 100px;
   color: #ffffff;
   border: peachpuff;
   border-radius: 10px;
   border-style: solid;
+  margin-top: 50px;
+  text-align: center;
 }
 
 span {
@@ -87,18 +81,24 @@ hr {
 }
 
 p {
-  width: 380px;
-  height: 80px;
-  background-color: silver;
-  justify-content: center;
-  align-items: center;
+  width: 700px;
+  height: 735px;
+  color: white;
+  background-color: grey;
+  font-size: 50px;
   text-align: center;
-  margin-top: 0.5cm;
-  border: 2px solid purple;
-  border-radius: 12%;
-  margin-left: 1350px;
 }
 
 button {
-  margin-left: 1350px;
+  width: 700px;
+  height: 120px;
+  font-size: 50px;
+}
+
+.content-container {
+  display: flex;
+}
+
+.text-container {
+  margin-left: 45px;
 }
